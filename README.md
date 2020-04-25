@@ -19,10 +19,10 @@ Our models can be used to assess sentiments and context for strings of text, com
 
 ## Contents
 ### 1. Data Collection
-First we extract our data using the [P3-getting-data.ipynb](). This grabs relevant data from the pushshift API, and extracts relevant features that would be useful for inference or our modeling process. Data was extracted using the [PushShift API](https://pushshift.io/api-parameters/)
+First we extract our data using the [P3-getting-data.ipynb](https://git.generalassemb.ly/DanOvadia/project_3/blob/master/P3-Getting-Data.ipynb). This grabs relevant data from the pushshift API, and extracts relevant features that would be useful for inference or our modeling process. Data was extracted using the [PushShift API](https://pushshift.io/api-parameters/)
 
 ### 2. Cleaning and Preparation of Data
-Second we clean our data using [P3-cleaning.ipynb](). The first cleaning operations we conduct are the following:
+Second we clean our data using [P3-cleaning.ipynb](https://git.generalassemb.ly/DanOvadia/project_3/blob/master/P3-cleaning.ipynb). The first cleaning operations we conduct are the following:
  - Selects only lowercase and uppercase letters from the title and selftext.
  - Extracts hypertext and HTML artifacts from title and selftext.
  - Lowercases all characters.
