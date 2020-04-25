@@ -19,10 +19,10 @@ Our models can be used to assess sentiments and context for strings of text, com
 
 ## Contents
 ### 1. Data Collection
-First we extract our data using the [P3-getting-data.ipynb](https://git.generalassemb.ly/DanOvadia/project_3/blob/master/P3-Getting-Data.ipynb). This grabs relevant data from the pushshift API, and extracts relevant features that would be useful for inference or our modeling process. Data was extracted using the [PushShift API](https://pushshift.io/api-parameters/)
+First we extract our data using the [P3-getting-data.ipynb](https://git.generalassemb.ly/DanOvadia/project_3/blob/master/code/P3-getting-data.ipynb). This grabs relevant data from the pushshift API, and extracts relevant features that would be useful for inference or our modeling process. Data was extracted using the [PushShift API](https://pushshift.io/api-parameters/)
 
 ### 2. Cleaning and Preparation of Data
-Second we clean our data using [P3-cleaning.ipynb](https://git.generalassemb.ly/DanOvadia/project_3/blob/master/P3-cleaning.ipynb). The first cleaning operations we conduct are the following:
+Second we clean our data using [P3-cleaning.ipynb](https://git.generalassemb.ly/DanOvadia/project_3/blob/master/code/P3-cleaning.ipynb). The first cleaning operations we conduct are the following:
  - Selects only lowercase and uppercase letters from the title and selftext.
  - Extracts hypertext and HTML artifacts from title and selftext.
  - Lowercases all characters.
@@ -52,7 +52,7 @@ Second we clean our data using [P3-cleaning.ipynb](https://git.generalassemb.ly/
 The cleaning and preparation of our data took multiple steps.
  
 ### 3. Exploratory Data Analysis Process
-Now that our data is clean and ready for examining, we can begin our EDA process. The EDA process can be found in [P3-EDA.ipynb]() notebook. 
+Now that our data is clean and ready for examining, we can begin our EDA process. The EDA process can be found in [P3-EDA.ipynb](https://git.generalassemb.ly/DanOvadia/project_3/blob/master/code/P3-EDA.ipynb) notebook. 
 
 Our exploratory process focuses on looking at word frequencies and URL hostname frequencies. 
 #### Common words in title or selftext
@@ -90,7 +90,7 @@ This practice dramatically improved the variance of our model. Leading to some r
 
 
 ### 4. Preprocessing and Modeling
-After exploring our data and examining key coefficients and frequent words and URLS, we went back and tuned our stop words to better target the signal that interests us. We then proceeded to instantiate models and run tests to see which model may produce the best results for some interpretability. We did this work in the [P4-model.ipynb]() python notebook. 
+After exploring our data and examining key coefficients and frequent words and URLS, we went back and tuned our stop words to better target the signal that interests us. We then proceeded to instantiate models and run tests to see which model may produce the best results for some interpretability. We did this work in the [P3-model](https://git.generalassemb.ly/DanOvadia/project_3/blob/master/code/P3-model.ipynb) python notebook. 
 
 
 ### 5. Model Evaluation
